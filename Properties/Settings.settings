@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MastodonObserver.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Title" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MastodonObserver</Value>
+    </Setting>
+    <Setting Name="Description" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Mastodonのホームを監視する棒読みちゃんプラグインです。</Value>
+    </Setting>
+    <Setting Name="Version" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">v1.0.0.0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
