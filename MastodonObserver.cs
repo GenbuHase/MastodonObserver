@@ -2,7 +2,7 @@
 using FNF.XmlSerializerSetting;
 
 namespace MastodonObserver {
-	public class Plugin_MastodonObserver : IPlugin {
+	public class MastodonObserver : IPlugin {
 		public string Name => Properties.Settings.Default.Title;
 
 		public string Version => Properties.Settings.Default.Version;
