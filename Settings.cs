@@ -5,6 +5,7 @@ namespace MastodonObserver {
 	public class Settings : SettingsBase {
 		public string InstanceURL;
 		public string AccountID;
+		public string Token;
 
 		public override void ReadSettings() {
 			return;

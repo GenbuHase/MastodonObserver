@@ -115,5 +115,24 @@ namespace MastodonObserver.Properties {
                 return ResourceManager.GetString("SETTING_MSTDN_BASIC_INSTANCEURL_LABEL", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   アカウントに紐付けられたトークン
+        ///(settings/applicationより作成) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SETTING_MSTDN_BASIC_TOKEN {
+            get {
+                return ResourceManager.GetString("SETTING_MSTDN_BASIC_TOKEN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   03)トークン に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SETTING_MSTDN_BASIC_TOKEN_LABEL {
+            get {
+                return ResourceManager.GetString("SETTING_MSTDN_BASIC_TOKEN_LABEL", resourceCulture);
+            }
+        }
     }
 }

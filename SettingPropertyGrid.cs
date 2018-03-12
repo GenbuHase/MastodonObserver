@@ -8,6 +8,8 @@ namespace MastodonObserver {
 		private const string MSTDN_BASIC_INSTANCEURL = "SETTING_MSTDN_BASIC_INSTANCEURL";
 		private const string MSTDN_BASIC_ACCOUNTID_LABEL = "SETTING_MSTDN_BASIC_ACCOUNTID_LABEL";
 		private const string MSTDN_BASIC_ACCOUNTID = "SETTING_MSTDN_BASIC_ACCOUNTID";
+		private const string MSTDN_BASIC_TOKEN_LABEL = "SETTING_MSTDN_BASIC_TOKEN_LABEL";
+		private const string MSTDN_BASIC_TOKEN = "SETTING_MSTDN_BASIC_TOKEN";
 
 		private Settings settings;
 
@@ -31,6 +33,14 @@ namespace MastodonObserver {
 		public string AccountID {
 			get => this.settings.AccountID;
 			set => this.settings.AccountID = value;
+		}
+
+		[I18nCategory(MSTDN_BASIC)]
+		[I18nDisplayName(MSTDN_BASIC_TOKEN_LABEL)]
+		[I18nDescription(MSTDN_BASIC_TOKEN)]
+		public string Token {
+			get => this.settings.Token;
+			set => this.settings.Token = value;
 		}
 	}
 }

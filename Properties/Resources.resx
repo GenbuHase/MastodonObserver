@@ -143,4 +143,13 @@ ex) mstdn.y-zu.org</value>
     <value>01)インスタンスURL</value>
     <comment>01 01 01 01</comment>
   </data>
+  <data name="SETTING_MSTDN_BASIC_TOKEN" xml:space="preserve">
+    <value>アカウントに紐付けられたトークン
+(settings/applicationより作成)</value>
+    <comment>01 01 03 02</comment>
+  </data>
+  <data name="SETTING_MSTDN_BASIC_TOKEN_LABEL" xml:space="preserve">
+    <value>03)トークン</value>
+    <comment>01 01 03 01</comment>
+  </data>
 </root>
