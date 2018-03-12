@@ -136,7 +136,7 @@ ex) ProgrammerGenboo</value>
   </data>
   <data name="SETTING_MSTDN_BASIC_INSTANCEURL" xml:space="preserve">
     <value>インスタンスのURL
-ex) mstdn.y-zu.org</value>
+ex) https://mstdn.y-zu.org</value>
     <comment>01 01 01 02</comment>
   </data>
   <data name="SETTING_MSTDN_BASIC_INSTANCEURL_LABEL" xml:space="preserve">

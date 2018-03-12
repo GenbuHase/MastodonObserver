@@ -59,7 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="I18nAttributes.cs" />
+    <Compile Include="Util\I18nAttributes.cs" />
     <Compile Include="MastodonObserver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -75,6 +75,7 @@
     <Compile Include="SettingFormData.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="SettingPropertyGrid.cs" />
+    <Compile Include="Util\Mastodon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

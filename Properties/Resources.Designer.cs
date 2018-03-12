@@ -99,7 +99,7 @@ namespace MastodonObserver.Properties {
         
         /// <summary>
         ///   インスタンスのURL
-        ///ex) mstdn.y-zu.org に類似しているローカライズされた文字列を検索します。
+        ///ex) https://mstdn.y-zu.org に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string SETTING_MSTDN_BASIC_INSTANCEURL {
             get {

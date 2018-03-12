@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using FNF.XmlSerializerSetting;
+﻿using FNF.XmlSerializerSetting;
 
 namespace MastodonObserver {
 	class SettingFormData : ISettingFormData {

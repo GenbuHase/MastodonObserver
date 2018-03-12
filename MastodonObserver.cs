@@ -1,6 +1,7 @@
 ﻿using FNF.BouyomiChanApp;
 using FNF.XmlSerializerSetting;
 using FNF.Utility;
+using MastodonObserver.Util;
 
 namespace MastodonObserver {
 	public class MastodonObserver : IPlugin {
@@ -18,6 +19,9 @@ namespace MastodonObserver {
 			this.setting.Load(settingPath);
 
 			this.formData = new SettingFormData(this.setting);
+
+			Mastodon mstdn = new Mastodon(this.setting.InstanceURL, this.setting.Token);
+			Pub.AddTalkTask(mstdn.Test("TEST"));
 
 			return;
 		}

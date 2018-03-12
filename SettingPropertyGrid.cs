@@ -1,5 +1,5 @@
 ﻿using FNF.XmlSerializerSetting;
-using System.ComponentModel;
+using MastodonObserver.Util;
 
 namespace MastodonObserver {
 	public class SettingPropertyGrid : ISettingPropertyGrid {
