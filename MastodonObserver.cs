@@ -1,6 +1,7 @@
 ﻿using FNF.BouyomiChanApp;
 using FNF.XmlSerializerSetting;
 using FNF.Utility;
+using System.Diagnostics;
 using MastodonObserver.Util;
 
 namespace MastodonObserver {
@@ -21,14 +22,14 @@ namespace MastodonObserver {
 			this.formData = new SettingFormData(this.setting);
 
 			Mastodon mstdn = new Mastodon(this.setting.InstanceURL, this.setting.Token);
-			Pub.AddTalkTask(mstdn.Test("TEST"));
+			Debug.WriteLine(mstdn.Test("TEST"));
+			//Pub.AddTalkTask();
 
 			return;
 		}
 
 		public void End() {
 			this.setting.Save(settingPath);
-
 			return;
 		}
 	}

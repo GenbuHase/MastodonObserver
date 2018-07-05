@@ -6,20 +6,14 @@ using System.Text;
 
 namespace MastodonObserver.Util {
 	class I18nCategoryAttribute : CategoryAttribute {
-		public I18nCategoryAttribute (string key) : base(Properties.Resources.ResourceManager.GetString(key)) {
-			
-		}
+		public I18nCategoryAttribute(string key) : base(Properties.Resources.ResourceManager.GetString(key)) {}
 	}
 
 	class I18nDescriptionAttribute : DescriptionAttribute {
-		public I18nDescriptionAttribute (string key) : base(Properties.Resources.ResourceManager.GetString(key)) {
-			
-		}
+		public I18nDescriptionAttribute(string key) : base(Properties.Resources.ResourceManager.GetString(key)) {}
 	}
 
 	class I18nDisplayNameAttribute : DisplayNameAttribute {
-		public I18nDisplayNameAttribute(string key) : base(Properties.Resources.ResourceManager.GetString(key)) {
-
-		}
+		public I18nDisplayNameAttribute(string key) : base(Properties.Resources.ResourceManager.GetString(key)) {}
 	}
 }

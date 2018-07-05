@@ -5,7 +5,7 @@ namespace MastodonObserver {
 		private Settings settings;
 		public SettingPropertyGrid propGrid;
 
-		public SettingFormData (Settings setting) {
+		public SettingFormData(Settings setting) {
 			this.settings = setting;
 			propGrid = new SettingPropertyGrid(this.settings);
 		}
